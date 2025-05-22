@@ -1983,15 +1983,15 @@
 			(uuid "149edb8d-ace2-4c9c-8562-c1b45907b4a5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/Unknown.pretty/3D/128x32-OLED.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 17.75 -3.75 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5031,6 +5031,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5042,6 +5043,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5760,7 +5762,7 @@
 			(uuid "9421d2c5-35ee-4365-8158-4fc57ac7c9a7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6020,7 +6022,7 @@
 			(uuid "183053aa-8442-4c34-8a78-848d48141eda")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6280,7 +6282,7 @@
 			(uuid "8474ac83-b80a-4d56-aec2-23ca8098acc5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6540,7 +6542,7 @@
 			(uuid "30ebc19e-c759-4576-90c8-326884adc848")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6800,7 +6802,7 @@
 			(uuid "1f4d2dce-fbe6-4a59-8353-10498fb5f3a1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7058,7 +7060,7 @@
 			(uuid "408ee16e-4421-4e8f-b32f-75ff93384685")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7243,7 +7245,7 @@
 			(uuid "36d74684-0dfe-4c1e-8d97-1d7b36b7fb9b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7494,7 +7496,7 @@
 	(footprint "Aesthetics:electronic_cats_logo_8x6"
 		(layer "B.Cu")
 		(uuid "7bd3b361-ebb6-44f9-9fc5-14ec5b073d9a")
-		(at 123.59 44 180)
+		(at 115.25 44.95 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -7502,7 +7504,7 @@
 			(uuid "1f1de761-abed-4ac1-9247-134a8134b90f")
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 0.6 0.6)
 					(thickness 0.3)
 				)
 				(justify mirror)
@@ -8276,7 +8278,7 @@
 			(uuid "1263ce03-7ab4-4cf6-818e-546633ece49f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -8461,7 +8463,7 @@
 			(uuid "9e386391-9fc2-41dc-8848-c4cc1b7b7357")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9034,7 +9036,7 @@
 			(uuid "9b466944-a891-4e25-a9b5-3a9087a7e0bb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9665,7 +9667,7 @@
 			(uuid "cca45dd6-b7a8-434f-a2c9-3b2dead440f8")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.6 0.6)
 					(thickness 0.254)
 				)
 				(justify mirror)
@@ -10161,7 +10163,7 @@
 			(uuid "24a21ad4-228e-44c1-aa94-54dd58ab5632")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10725,7 +10727,7 @@
 	(footprint "kibuzzard-682F777C"
 		(layer "B.Cu")
 		(uuid "b2791929-67b2-4334-a58c-e7ddd8865ecc")
-		(at 123.53 48.21 180)
+		(at 115.825 49.075 180)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6IDAuNSwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjUsICJNdWx0aUxpbmVUZXh0IjogIlYxLjAiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAxLjAsICJQYWRkaW5nUmlnaHRDdHJsIjogMS4wLCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAwLjcsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-682F777C"
@@ -10735,7 +10737,8 @@
 			(uuid "233dd647-878f-4605-a37c-658d5c26888d")
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 0.6 0.6)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10748,6 +10751,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10856,7 +10860,7 @@
 			(uuid "7128dd5c-7ba2-4aeb-bf61-f68f65d6302f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11406,7 +11410,7 @@
 			(uuid "37886e6d-d062-4943-b360-9e753f08d992")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -11667,7 +11671,8 @@
 			(uuid "6cabca0b-76c3-4641-9e74-099302c316dd")
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 0.6 0.6)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11680,6 +11685,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11773,7 +11779,7 @@
 			(uuid "f2ee1133-e621-495c-bb0d-b7aed949f850")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -12028,12 +12034,12 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.43 90)
+			(at -2.56 0.045 90)
 			(layer "B.SilkS")
 			(uuid "fa06aa52-508f-4be9-8729-3d35c10fed60")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.6 0.6)
 					(thickness 0.15)
 				)
 				(justify mirror)
