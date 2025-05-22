@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "d14d7c68-9f2c-43f5-bc80-5f8805c5de65")
 	(paper "A4")
+	(title_block
+		(title "UNKNOWN_BADGE")
+		(date "2025-05-22")
+		(rev "v1.0")
+		(company "ElectronicCats")
+		(comment 1 "Edgar Capuchino")
+	)
 	(lib_symbols
 		(symbol "Battery_Cell_1"
 			(pin_numbers
@@ -1261,182 +1268,6 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
 					(name "A"
 						(effects
 							(font
@@ -2797,11 +2628,9 @@
 		(color 0 0 0 0)
 		(uuid "b6830a31-ef27-46ca-a5b1-9b269938e50b")
 	)
-	(junction
-		(at 31.75 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe9cb4ac-1cc4-45e0-a17b-d942d8468dae")
+	(no_connect
+		(at 71.12 55.88)
+		(uuid "167e5e26-439a-4ec6-b5b7-bc5d95b2aefd")
 	)
 	(no_connect
 		(at 50.8 55.88)
@@ -2876,16 +2705,6 @@
 			(type default)
 		)
 		(uuid "0fed25c4-5024-4487-b4fd-e3cdcbdb9590")
-	)
-	(wire
-		(pts
-			(xy 31.75 171.45) (xy 38.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "142cfacc-8cf4-44c0-9e7a-e952ffed3aab")
 	)
 	(wire
 		(pts
@@ -2989,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 148.59) (xy 53.34 148.59)
+			(xy 58.42 148.59) (xy 54.61 148.59)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 163.83) (xy 31.75 171.45)
+			(xy 31.75 163.83) (xy 31.75 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3099,17 +2918,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 171.45) (xy 49.53 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ec9c1d7-0925-45e6-83d7-339a0a005c30")
-	)
-	(wire
-		(pts
-			(xy 58.42 140.97) (xy 53.34 140.97)
+			(xy 58.42 140.97) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3136,16 +2945,6 @@
 			(type default)
 		)
 		(uuid "5028a3a2-f445-4a93-9163-84909cc4c4f7")
-	)
-	(wire
-		(pts
-			(xy 74.93 55.88) (xy 71.12 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5219d942-b5f6-4b26-8404-4ea15dbf6f3b")
 	)
 	(polyline
 		(pts
@@ -3259,16 +3058,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 171.45) (xy 31.75 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b14f592-8666-422f-896b-65969001b14b")
-	)
-	(wire
-		(pts
 			(xy 148.844 135.89) (xy 148.844 139.446)
 		)
 		(stroke
@@ -3366,16 +3155,6 @@
 			(type default)
 		)
 		(uuid "800e72f9-ef92-4b59-9034-f7a87c6e41a6")
-	)
-	(wire
-		(pts
-			(xy 58.42 171.45) (xy 54.61 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "826890e1-fffe-4361-a989-2a443bc7c5dc")
 	)
 	(wire
 		(pts
@@ -3539,7 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 140.97) (xy 48.26 140.97)
+			(xy 43.18 140.97) (xy 46.99 140.97)
 		)
 		(stroke
 			(width 0)
@@ -3599,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 148.59) (xy 48.26 148.59)
+			(xy 43.18 148.59) (xy 46.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4127,16 +3906,6 @@
 		)
 		(uuid "7048e820-e6ac-4050-a613-924b4e142c8d")
 	)
-	(label "LED8"
-		(at 74.93 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73772b51-6647-42f1-be06-5f40454bfdc8")
-	)
 	(label "RST"
 		(at 88.138 64.008 180)
 		(effects
@@ -4156,16 +3925,6 @@
 			(justify left bottom)
 		)
 		(uuid "86ff23d3-9cfc-4ec2-93c8-bf1cee5b3b8d")
-	)
-	(label "LED8"
-		(at 58.42 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "92af3096-619c-4afc-a48b-13578c7b2d2e")
 	)
 	(label "LED3"
 		(at 74.93 50.8 0)
@@ -4647,6 +4406,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16fc17bf-ab50-416f-8055-83e1969b57f3")
+		(property "Reference" "D4"
+			(at 50.8 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" ""
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C434424"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dee2e90-71f2-4fc5-84f4-75eb7b7f8cc6")
+		)
+		(pin "2"
+			(uuid "4df9f9a0-afd7-428e-801b-248754b9212a")
+		)
+		(instances
+			(project "Unknown-Badge"
+				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 140.97 270)
 		(unit 1)
@@ -4810,91 +4654,6 @@
 			(project "Unknown-Badge"
 				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 50.8 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28997e53-d840-48a4-94fb-c8e04eb79759")
-		(property "Reference" "D2"
-			(at 50.8 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 123.444 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C434450"
-			(at 50.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1e9c97e-4ac3-464e-96fb-de68438e5099")
-		)
-		(pin "2"
-			(uuid "fe1c769e-5df0-4a55-b70b-f669f878ad0c")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5309,6 +5068,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f934310-0c6e-428e-b843-5d26302c7675")
+		(property "Reference" "D2"
+			(at 50.8 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" ""
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C434424"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c150a3f8-5cd5-4f44-8fab-939977671643")
+		)
+		(pin "2"
+			(uuid "3c058730-534d-4be5-94d9-d58669b9e477")
+		)
+		(instances
+			(project "Unknown-Badge"
+				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 66.294 0)
 		(mirror y)
@@ -5612,91 +5456,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 50.8 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67c93b4b-4751-4b6d-9eef-71c5b392a874")
-		(property "Reference" "D1"
-			(at 50.8 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 50.8 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C5440628"
-			(at 50.8 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87d89450-c7a2-41b1-b6b4-97653f971b91")
-		)
-		(pin "2"
-			(uuid "b3ffcff0-7944-48a3-8398-710390116a9a")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 255.27 68.58 90)
 		(unit 1)
@@ -5992,100 +5751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 50.8 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "794fb52c-3053-43d5-bef5-6b0953c956ad")
-		(property "Reference" "D5"
-			(at 50.8 143.764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 50.8 145.542 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unknown:LED_S"
-			(at 50.8 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2886268"
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 50.8 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa86f2e7-3ceb-4e14-8fc8-be9e4844657c")
-		)
-		(pin "2"
-			(uuid "2bffb5d3-3ebc-4d48-980c-33f56c6667ca")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 40.64 163.83 270)
 		(unit 1)
@@ -6183,100 +5848,6 @@
 			(project "Unknown-Badge"
 				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 50.8 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a7dd06f-13dc-421e-8938-fd2c16597725")
-		(property "Reference" "D4"
-			(at 50.8 136.652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 50.8 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unknown:LED_S"
-			(at 50.8 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C2886268"
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 50.8 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87e4b053-a537-4282-b885-cc23587e9b96")
-		)
-		(pin "2"
-			(uuid "af75f37a-2412-462a-93b7-426d563b9c12")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6448,109 +6019,6 @@
 			(project "Unknown-Badge"
 				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
 					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 40.64 171.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "885db0f2-9cbd-46d8-ba7c-66b760626d50")
-		(property "Reference" "R8"
-			(at 40.6908 173.2788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 40.6654 169.799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C22962"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proveedor" "Digikey"
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 40.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9388dc52-2a4c-4e55-a15e-96c86ca1413e")
-		)
-		(pin "2"
-			(uuid "db011916-a426-4b50-a470-c9f911652a78")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6936,6 +6404,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2167424-033a-46b8-95df-115b883e4518")
+		(property "Reference" "D1"
+			(at 50.8 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" ""
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C434424"
+			(at 50.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7c6f78-c39d-4bcc-b08f-1694e3d32165")
+		)
+		(pin "2"
+			(uuid "8a3da136-534f-422f-a5f1-ce7ed33f80a7")
+		)
+		(instances
+			(project "Unknown-Badge"
+				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 222.25 130.81 0)
 		(unit 1)
@@ -7204,6 +6757,91 @@
 			(project "Unknown-Badge"
 				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 50.8 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7110185-00f3-45f3-92ec-72697641b7d4")
+		(property "Reference" "D5"
+			(at 50.8 144.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 50.8 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "provedor" ""
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C434424"
+			(at 50.8 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e67976c-d017-427c-8b88-4c28b23aadd8")
+		)
+		(pin "2"
+			(uuid "1a6c2283-93a6-4d80-a12a-b477beb57d51")
+		)
+		(instances
+			(project "Unknown-Badge"
+				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8389,91 +8027,6 @@
 			(project "Unknown-Badge"
 				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_Small")
-		(at 52.07 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd7daef2-0ae1-4516-80de-cae11d4d237e")
-		(property "Reference" "D8"
-			(at 52.07 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_Small"
-			(at 52.07 168.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unknown:Led_S_S"
-			(at 52.07 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 52.07 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "provedor" ""
-			(at 52.07 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC#" "C409795"
-			(at 52.07 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd4e3b78-1d98-4dea-9d49-985daae4bc72")
-		)
-		(pin "2"
-			(uuid "400690a0-7455-499e-92da-b59d5fb44697")
-		)
-		(instances
-			(project "Unknown-Badge"
-				(path "/d14d7c68-9f2c-43f5-bc80-5f8805c5de65"
-					(reference "D8")
 					(unit 1)
 				)
 			)
