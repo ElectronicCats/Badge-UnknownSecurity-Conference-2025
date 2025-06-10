@@ -4,7 +4,7 @@ uint8_t leds[] = {LED1_PIN,
 #ifndef DEBUG_ENABLE
                   LED2_PIN,
 #endif
-                  LED3_PIN, LED4_PIN, LED5_PIN, LED6_PIN, LED7_PIN, LED8_PIN};
+                  LED3_PIN, LED4_PIN, LED5_PIN, LED6_PIN, LED7_PIN};
 uint8_t leds_count = sizeof(leds) / sizeof(leds[0]);
 
 // Init driver
@@ -22,7 +22,6 @@ void JOY_init(void) {
   PIN_output(LED5_PIN);
   PIN_output(LED6_PIN);
   PIN_output(LED7_PIN);
-  PIN_output(LED8_PIN);
 
   GPIO_InitTypeDef GPIO_InitStruct;
   RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);

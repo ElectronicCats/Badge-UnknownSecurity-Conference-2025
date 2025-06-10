@@ -44,7 +44,6 @@ extern "C" {
 #define LED5_PIN PD2
 #define LED6_PIN PC5
 #define LED7_PIN PC0
-#define LED8_PIN PD6
 
 #define PIN_SCL PC2  // pin connected to OLED (I2C SCL)
 #define PIN_SDA PC1  // pin connected to OLED (I2C SDA)
